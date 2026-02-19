@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMC Agentic AI | Think Tank 2028</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background: radial-gradient(circle at center, #111827 0%, #000000 100%); }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .glow:hover { box-shadow: 0 0 20px rgba(34, 197, 94, 0.4); }
+    </style>
+</head>
+<body class="text-gray-100 min-h-screen flex items-center justify-center p-6">
+
+    <div class="max-w-3xl w-full glass p-12 rounded-3xl text-center shadow-2xl">
+        <!-- Badge -->
+        <span class="px-4 py-1 rounded-full bg-green-500/10 text-green-400 text-sm font-mono tracking-widest uppercase mb-6 inline-block">
+            Vision 2028 | Agentic AI
+        </span>
+
+        <!-- Title -->
+        <h1 class="text-5xl md:text-6xl font-extrabold mb-6 tracking-tight">
+            The Future of <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-emerald-600">CMC Pharma</span>
+        </h1>
+
+        <!-- Description -->
+        <p class="text-xl text-gray-400 mb-10 leading-relaxed max-w-2xl mx-auto">
+            Experience the shift from passive monitoring to <b>Autonomous Problem Solving</b>. 
+            Step into the shoes of Lab Scientists and Managers using Multi-Agent Systems.
+        </p>
+
+        <!-- QR Code Placeholder / Icon -->
+        <div class="mb-12 flex justify-center">
+            <div class="w-32 h-32 bg-gradient-to-br from-green-500 to-emerald-700 rounded-2xl flex items-center justify-center shadow-lg transform rotate-3">
+                <svg xmlns="http://www.w3.org" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- Action Button -->
+        <!-- HIER DEINEN STREAMLIT LINK EINSETZEN -->
+        <a href="DEIN_STREAMLIT_LINK_HIER" target="_blank" 
+           class="glow inline-block bg-white text-black font-bold px-10 py-4 rounded-xl text-lg transition-all transform hover:scale-105 active:scale-95">
+            Launch Simulation
+        </a>
+
+        <!-- Features Mini-Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 text-sm text-gray-500 font-mono">
+            <div class="flex flex-col items-center">
+                <span class="text-green-500 mb-1">⏱️ Real-Time</span>
+                <span>Sub-15m Investigation</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <span class="text-green-500 mb-1">⚖️ Compliance</span>
+                <span>ICH Q3A Mapping</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <span class="text-green-500 mb-1">🧬 Small Molecule</span>
+                <span>API-Scale-up Focus</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
